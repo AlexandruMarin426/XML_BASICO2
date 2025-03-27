@@ -1,68 +1,37 @@
-Nombre: Alexandru
-Curso: Marin
-Fecha: 24/03/2025
--->
-<!-- Ejercicio 1: Definir una persona en XML -->
-<personas>
-    <!-- Definición de una persona -->
-    <persona>
-        <nombre>Juan Pérez</nombre>
-        <edad>30</edad>
-        <ciudad>Madrid</ciudad>
-    </persona>
+Instrucciones para un Código Claro y Documentado en XML
+1. Encabezado de Documentación
+Cada archivo XML debe comenzar con un encabezado de documentación utilizando comentarios:
 
-    <!--
-    Fecha: 12/02/2025
-    Cambio: Se agregó el campo correo-electronico
-    -->
-    <persona>
-        <nombre>Juan Pérez</nombre>
-        <edad>30</edad>
-        <ciudad>Madrid</ciudad>
-        <correo-electronico>juan@example.com</correo-electronico>
-    </persona>
-</personas>
+Ejemplo de encabezado en XML:
 <!--
-Nombre:Alexandru
-Curso:Marin
-Fecha:24/03/2025
+Nombre: [Nombre del Alumno]
+Curso: [Nombre del Curso]
+Fecha: [DD/MM/AAAA]
+Ejercicio: [Título del Ejercicio]
 -->
 
-<!-- Ejercicio 2: Definir una empresa con empleados -->
+2. Uso de Comentarios en XML
+Los comentarios deben explicar la estructura y propósito de cada parte del código XML.
 
-<empresa>
-    <empleado>
-        <nombre>Ana López</nombre>
-        <puesto>Desarrolladora</puesto>
-        <email>ana.lopez@example.com</email>
-    </empleado>
-    <empleado>
-        <nombre>Carlos Ramírez</nombre>
-        <puesto>Diseñador</puesto>
-        <email>carlos.ramirez@example.com</email>
-    </empleado>
-</empresa>
+Ejemplo:
+<!-- Definición de una persona -->
+<persona>
+    <nombre>Juan Pérez</nombre>
+    <edad>30</edad>
+    <ciudad>Madrid</ciudad>
+</persona>
+
+3. Control de Modificaciones y Fechas
+Si se hacen cambios en el código XML, se deben registrar con comentarios indicando la fecha y la descripción del cambio.
+
+Ejemplo:
 <!--
-Nombre:Alexandru
-Curso:Marin
-Fecha:24/03/2025
-Fecha: 15/03/2025
-Cambio: Se agregó un nuevo empleado
+Fecha: 12/02/2025
+Cambio: Se agregó el campo correo-electronico
 -->
-<empresa>
-    <empleado>
-        <nombre>Ana López</nombre>
-        <puesto>Desarrolladora</puesto>
-        <email>ana.lopez@example.com</email>
-    </empleado>
-    <empleado>
-        <nombre>Carlos Ramírez</nombre>
-        <puesto>Diseñador</puesto>
-        <email>carlos.ramirez@example.com</email>
-    </empleado>
-    <empleado>
-        <nombre>Lucía Fernández</nombre>
-        <puesto>Gerente de Proyectos</puesto>
-        <email>lucia.fernandez@example.com</email>
-    </empleado>
-</empresa>
+<persona>
+    <nombre>Juan Pérez</nombre>
+    <edad>30</edad>
+    <ciudad>Madrid</ciudad>
+    <correo-electronico>juan@example.com</correo-electronico>
+</persona>
